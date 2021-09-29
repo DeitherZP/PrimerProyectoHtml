@@ -39,8 +39,18 @@
     </footer>
     <script>
         function mensaje(texto){
-            alert(texto);
-            document.getElementById().reset();
+            var nombre = document.getElementById("Nombre").value;
+            var apellido = document.getElementById("Apellido").value;
+            var nombreEmpresa = document.getElementById("NombreEmpresa").value;
+            var direccion = document.getElementById("Direccion").value;
+            var motivoCita = document.getElementById("MotivoCita").value;
+            var fecha = document.getElementById("Fecha").value;
+            if((nombre.trim().length != 0) && (apellido.trim().length != 0) && (nombreEmpresa.trim().length != 0) && (direccion.trim().length != 0) && (motivoCita.trim().length != 0) && (fecha.trim().length != 0)){
+                alert(texto);
+                document.getElementById().reset();
+            } else{
+                alert('ERROR!! Existen campos vacios');
+            }
         }
     </script> 
 </body>
