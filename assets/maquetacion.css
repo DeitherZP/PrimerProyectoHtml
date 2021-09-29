@@ -102,7 +102,6 @@ body{
     margin-top: 0.5em auto;
     background-color: rgba(91, 6, 100, 0.295);
     text-align: center;
-    flex-direction: column;
 }
 
 .RedSocial{
