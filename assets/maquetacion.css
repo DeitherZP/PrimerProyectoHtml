@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.Encabezado{
+    background: url(Imagenes/Img-Encabezado.jpg);
+    background-size: cover;
+    background-color: rgba(91, 6, 100, 0.295);
+    background-position: center;
+    height: 150px;
+    color: whitesmoke;
+    font-size: 2em;
+    padding-left: 0.5em;
+}
+
+.Icono{
+    padding-right: 40px;
+    padding-top: 25px;
+    float: right;
+}
+
+.Divisor{
+    height: 10px;
+    background-color: purple;
+    margin:auto;
+}
+
+.Seccion{
+    width: 100%;
+}
+
+#Video{
+    height: 370px;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+#QuienesSomos{
+    height: 170px;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0.5em auto;
+    padding: 1em;
+    background-color: rgba(91, 6, 100, 0.295);
+    border-radius: 1em;
+}
+
+#Informa{
+    height: 225px;
+    width: 90%;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+#Tecnico{
+    height: 100%;
+    width: 25%;
+    border-radius: 1em;
+    background-color: #f3f1f38f;
+    color: black;
+    text-align: center;
+    float: left;
+}
+
+#Domicilio{
+    height: 100%;
+    width: 25%;
+    border-radius: 1em;
+    color: black;
+    background-color: #f3f1f38f;
+    text-align: center;
+    float: right;
+}
+
+#Garantia{
+    height: 100%;
+    width: 25%;
+    margin: 0em auto;
+    border-radius: 1em;
+    color: black;
+    background-color: #f3f1f38f;
+    text-align: center;
+}
+
+#Solicitarcita{
+    height: 240px;
+    width: 25%;
+    margin: 0.5em auto;
+    color: white;
+    text-align: center;
+}
+
+.Pie{
+    height: 115px;
+    color: white;
+    margin-top: 0.5em auto;
+    background-color: rgba(91, 6, 100, 0.295);
+    text-align: center;
+}
+
+.RedSocial{
+    width: 20%;
+    margin: auto;
+}
+
+.twitter{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.instagram{
+    width: 40%;
+    float: right;
+    text-align: center;
+}
+
+form{
+    width: 30%;
+    color: white;
+    margin: 0em auto;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}   
+
+.tamtext{
+    height: 30px;
+    width: 100%;
+    margin: 0.5em;
+}
+
+.tamareatext{
+    margin: 0.5em;
+    width: 100%;
+}
+
+.tamfechhora{
+    height: 30px;
+    width: 100%;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.tambottom{
+    height: 40px;
+    width: 100%;
+    margin: 0.5em;
+    font-size: 0.9em;
+    color: black;
+    background-color: grey;
+}
+
+.tambottom:hover{
+    cursor: pointer;
+}

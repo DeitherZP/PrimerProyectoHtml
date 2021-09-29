@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="maquetacion.css" >
+    <title>Agendar Cita</title>
+    <link rel="shortcut icon" href="../Imagenes/Logo.png">
+</head>
+<body>
+    <header class="Encabezado">
+        <div class="Icono"><a href="../index.html"><img src="../Imagenes/Logo.png" title="DERICK S.A" width="100px" height="100px"></a></div>
+        <br><h1>DERICK</h1>Agendamiento de cita
+    </header>
+    <div class="Divisor"> </div>
+    <section class="Seccion">
+        <main>
+            <form>
+                <h2>Agende su cita aquí y nuestros profesionales le brindaran nuestro mejor servicio</h2>
+                <p><input type="text" name="Nombre" id="Nombre" class="tamtext" size="50" title="Nombres agendador" placeholder="Nombre del agendador"></p>
+                <p><input type="text" name="Apellido" id="Apellido" class="tamtext" size="50" title="Apellidos agendador" placeholder="Apellido del agendador"></p>
+                <p><input type="text" name="NombreEmpresa" class="tamtext" id="NombreEmpresa" size="50" title="Nombre empresa" placeholder="Nombre de la empresa"></p>
+                <p><textarea name="Direccion" id="Direccion" class="tamareatext" rows="5" cols="52" title="Dirección" placeholder="Dirección"></textarea></p>
+                <p><textarea name="MotivoCita" id="MotivoCita" class="tamareatext" rows="5" cols="52" title="Descripción problema" placeholder="Describa el problema"></textarea></p>
+                <p><input type="datetime-local" name="FechaHora" class="tamfechhora" title="Eliga la fecha y hora de la cita"></p>
+                <input type="submit" class="tambottom" onclick="mensaje('La cita se ha agendado con exito')" value="Agendar cita">  
+                <input type="button" class="tambottom" onclick="location.href='index.html'" value="Regresar">
+            </form>
+        </main> 
+    </section>
+    <footer>
+        <div class="Pie">
+            <br>
+            <div class="RedSocial">
+                <div class="twitter"><a href="https://twitter.com/DerickSA3" target="_blank"><img src="../Imagenes/Twitter.png" title="@DerickSA3" alt="@DerickSA3" width="50px" height="50px"></a></div>
+                <div class="instagram"><a href="https://www.instagram.com/derick_s.a/?hl=es-la" target="_blank"><img src="../Imagenes/Instagram.png" title="@derick_s.a" alt="@derick_s.a" width="50px" height="50px"></a></div>
+            </div>
+            <h3>Siguenos en nuestras redes y conectate con nosotros.</h3>
+        </div>
+    </footer>
+    <script>
+        function mensaje(texto){
+            alert(texto);
+            document.getElementById().reset();
+        }
+    </script> 
+</body>
+</html>
